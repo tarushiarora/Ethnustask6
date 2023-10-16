@@ -633,9 +633,9 @@ input[type="checkbox"] {
   .testimonial--section,
   .contact--section,
   .footer--container {
-    gap: 20px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    gap: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .about--section {
     gap: 20px;

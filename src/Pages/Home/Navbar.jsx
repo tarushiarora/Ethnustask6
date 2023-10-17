@@ -26,28 +26,28 @@ function Navbar() {
     };
   }, []);
 
-  useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu();
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.innerWidth <= 1200) {
+  //     closeMenu();
+  //   }
+  // }, []);
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
         <h2>Tarushi Arora</h2>
       </div>
-      <a
+      {/* <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </a>
+      </a> */}
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
-          <li>
+          {/* <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -60,9 +60,9 @@ function Navbar() {
             >
               Home
             </Link>
-          </li>
+          </li> */}
           
-          <li>
+          {/* <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -75,8 +75,8 @@ function Navbar() {
             >
               About
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -89,7 +89,7 @@ function Navbar() {
             >
               Contact Me
             </Link>
-          </li>
+          </li> */}
           
         </ul>
       </div>

@@ -1,23 +1,22 @@
 {
-    "skills": [
-      {
-        "id": "1",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "2",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "3",
-        "title": "DSA",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      }
-      
-    ]
-    
-    
-  }
-  
+  "skills": [
+    {
+      "id": "1",
+      "title": "Front-End",
+      "description": "- HTML\n- CSS\n- JavaScript\n- Bootstrap\n- React.js"
+    },
+    {
+      "id": "2",
+      "title": "Back-End",
+      "description": "- MongoDB\n- MySQL\n-NodeJS\n-ExpressJS"
+    },
+    {
+      "id": "3",
+      "title": "DSA",
+      "description":  ["Java-based problem-solving in Data Structures and Algorithms.",
+        "Dedicated to enhancing algorithmic efficiency."
+      ]
+    }
+  ]
+}
+

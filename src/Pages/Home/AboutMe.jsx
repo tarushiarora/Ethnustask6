@@ -10,9 +10,6 @@ export default function AboutMe() {
 
 Lately, I've been focusing more on the backend side of things in development. When I'm not coding, you'll find me jamming to music or enjoying a good cup of coffee—I'm a bit of a coffee fanatic. Let's chat and see if we can team up on some awesome projects!
             </p>
-            <p className="hero--section-description">
-              
-            </p>
           </div>
         </div>
       </section>
